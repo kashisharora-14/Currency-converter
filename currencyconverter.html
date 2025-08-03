@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+
+<body>
+    <div class="container">
+       <h1> Currency Converter</h1>
+        <form>
+            <div class="amount">
+                <h2>Enter Amount</h2>
+                <input type="text" name="" id="" value="100">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>FROM</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BE/flat/64.png">
+                        <select name="from">
+                            <option value="USD" selected>USD</option>
+                            <option value="INR">INR</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>TO</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to">
+                            <option value="USD">USD</option>
+                            <option value="INR" selected>INR</option>
+                            <option value="EUR">EUR</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD = 80INR</div>
+            <button> Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="c.js"></script>
+    
+</body>
+
+</html>
